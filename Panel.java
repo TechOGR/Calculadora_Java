@@ -13,7 +13,7 @@ public class Panel extends JFrame implements ActionListener{
 	private JButton btn_exit, btn_min, btn_ciento, btn_exp, btn_clear,btn_igual, btn_dividir, btn_multi, btn_suma, btn_resta,
 					btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btn_punto, btn_oscuro, btn_claro;
 	private JLabel  label_calculos1, label_calculos, label_resultado, label_algo;
-	private boolean punto = true;
+	protected boolean punto = true;
 
 	String valor1, valor2, simbolos, contenido;
 	float resultado;
@@ -446,7 +446,7 @@ public class Panel extends JFrame implements ActionListener{
 
 	public static String operaciones(String valor1, String valor2, String simbolos){
 		Double resultadocalc = 0.0;
-		Double es1 = 100.0, es2 = 0.0;
+		// Double es1 = 100.0, es2 = 0.0;
 		String respuesta;
 
 		if(simbolos.equals("+")){
