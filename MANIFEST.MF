@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: TechOGR
+Main-Class: Panel
+X-COMMENT: Calculadora
