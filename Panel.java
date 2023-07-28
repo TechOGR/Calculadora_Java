@@ -4,7 +4,12 @@
 	Gmail: onelguilarte858@gmail.com
 */
 
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
 import java.awt.*;
 import java.awt.event.*;
 
